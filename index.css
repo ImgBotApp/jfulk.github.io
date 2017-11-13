@@ -1,0 +1,40 @@
+/* Header starts here */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.img-steps {border-radius: 50%;
+			}
+.img-text {position: absolute;
+   top: 100px;
+   left: 0;
+   width: 100%;
+	color:#FFFFFF;
+	text-align: center;
+}
+.row {column-count: 4;
+	column-width: 75px;
+	column-gap: 75px;}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+/*Header ends here*/
